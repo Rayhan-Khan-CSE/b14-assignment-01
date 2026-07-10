@@ -74,3 +74,37 @@
 .emphasis{
     font-style: italic;
 }
+
+/* Meet the Speakers style css */
+
+.meet-parent{
+    max-width: 1200px;
+    margin: auto;
+}
+.meet-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
+    gap: 20px;
+}
+.card{
+     border-radius: 10px;
+     border: 1px solid #E5E7EB;
+     overflow: hidden;
+}
+.meet-head{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sub-head1{
+    color: #2563EB;
+    font-weight: 600;
+}
+.sub-head2{
+    font-weight: bold;
+    font-size: large;
+}
+.card-block{
+    padding-left: 20px;
+}
