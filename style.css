@@ -1,10 +1,16 @@
+.main{
+    margin: 0;
+    padding: 0;
+}
+
 /* Nav section style css */
+
 .nav-parent{
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
-    padding: 20px;
+    padding-top: 20px;
 }
 .nav-center-elements{
     display: flex;
@@ -18,9 +24,53 @@
 }
 .nav-right-button{
     background-color: #1D4ED8;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     padding: 10px 20px;
     cursor: pointer;
     border: none;
+    font-weight: 600;
+}
+
+/* Banner (Hero) Section style css */
+
+.hero-parent{
+    background-image: url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.hero-sub-parent{
+    max-width: 1200px;
+    margin: auto;
+    border: 0px;
+}
+.hero-head{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.hero-para{
+    text-align: center;
+    color: white;
+}
+.hero-button{
+    text-align: center;
+    padding-top: 320px;
+}
+.btn{
+    background-color: #1D4ED8;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+}
+.emphasis{
+    font-style: italic;
 }
