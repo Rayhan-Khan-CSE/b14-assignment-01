@@ -1,0 +1,26 @@
+/* Nav section style css */
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.nav-center-elements{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.nav-center-elements a{
+    text-decoration: none;
+    color: #575757;
+    font-family: "Arimo", sans-serif;
+}
+.nav-right-button{
+    background-color: #1D4ED8;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
