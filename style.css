@@ -87,6 +87,7 @@
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 50px;
     gap: 20px;
+     font-family: "Inter", sans-serif;
 }
 .card{
      border-radius: 10px;
@@ -97,6 +98,12 @@
     font-weight: bold;
     text-align: center;
     margin-bottom: 50px;
+}
+.meet-head h1{
+     font-family: "Inter", sans-serif;
+     font-weight: bold;
+     color: #000102;
+     font-size: 50px;
 }
 .sub-head1{
     color: #2563EB;
@@ -118,7 +125,9 @@
 .price-main{
     max-width: 1200px;
     margin: auto;
+     font-family: "Inter", sans-serif;
 }
+
 .pricing-card-parent{
     display: flex;
     justify-content: center;
@@ -133,6 +142,7 @@
     background-color: white;
     padding: 20px;
     border: 1px solid #E5E7EB;
+    color: #333333;
 }
 .Price-card2{
     border-radius: 10px;
@@ -140,6 +150,7 @@
      border: 1px solid #0D1B2A;
      color: white;
     padding: 20px;
+    color: #ffffff;
 }
 .Price-card2 h5{
     color: #93C5FD;
@@ -150,6 +161,7 @@
     background-color: #F8F9FB;
     padding: 20px;
     border: 1px solid #E5E7EB;
+    color: #333333;
 }
 .price-head{
     text-align: center;
@@ -436,11 +448,13 @@
 .newsletter-content h2 {
     font-size: 2rem;
     margin-bottom: 15px;
+    color: white;
 }
 
 .newsletter-content p {
     line-height: 1.7;
     max-width: 550px;
+    color: white;
 }
 
 /* Form */
@@ -494,6 +508,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 70px;
+     font-family: "Inter", sans-serif;
 }
 .footer-right-parent{
     display: flex;
