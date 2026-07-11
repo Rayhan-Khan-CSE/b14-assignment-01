@@ -11,6 +11,7 @@
     max-width: 1200px;
     margin: auto;
     padding-top: 20px;
+    margin-bottom: 30px;
 }
 .nav-center-elements{
     display: flex;
@@ -108,6 +109,9 @@
 .card-block{
     padding-left: 20px;
 }
+.card-block h6,h4,p{
+    margin: 10px;
+}
 
 /* Secure Your Spot or Pricing Card style css */
 
@@ -202,4 +206,30 @@
 }
 .Price-card3 h5,h1,h6{
     margin: 0;
+}
+
+/* Footer Section style css */
+
+.footer-parent{
+    height: 150px;
+    width: 100%;
+    margin: 0;
+    background-color: #0D1B2A;
+}
+.footer-sub-parent{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.footer-right-parent{
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+}
+.footer-right-parent a{
+    list-style: none;
+    text-decoration: none;
+    color: #FFFFFF;
 }
