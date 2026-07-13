@@ -426,11 +426,7 @@
 /* Newsletter Box */
 
 .newsletter-box {
-    background: linear-gradient(
-        135deg,
-        #2563eb,
-        #7c3aed
-    );
+    background-color: #2563EB;
     border-radius: 20px;
     padding: 50px;
     display: flex;
@@ -497,17 +493,50 @@
 /* Footer Section style css */
 
 .footer-parent{
-    height: 150px;
+    height: 200px;
     width: 100%;
     margin: 0;
     background-color: #0D1B2A;
 }
-.footer-sub-parent{
+.footer-container{
     max-width: 1200px;
     margin: auto;
+}
+
+.icon-top{
     display: flex;
     justify-content: space-between;
-    padding-top: 70px;
+    padding-top: 50px;
+}
+
+.footer-line{
+    border:1.5px #374151 solid;
+    margin: 20px 0px;
+}
+.icon{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+.icon1{
+   color: #1877F2;
+   font-size: 35px;
+}
+.icon2{
+    color: #E1306C;
+    font-size: 35px;
+}
+.icon3{
+    color: #0A66C2;
+    font-size: 35px;
+}
+.icon4{
+    color: #1DA1F2;
+    font-size: 35px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
      font-family: "Inter", sans-serif;
 }
 .footer-right-parent{
